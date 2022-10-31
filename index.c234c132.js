@@ -1,0 +1,2 @@
+const e={heading:{en:"the title of my resume",uk:"заголовок мого резюме"},text:{en:"resume of full stack developer Igor Chubov",uk:"резюме фул стек девелопера чубова ігоря"}},n=document.querySelector("select");location.href=`${location.pathname}#en`,n.addEventListener("change",(function(){const t=n.value;location.href=`${location.pathname}#${t}`,function(){const t=window.location.hash.slice(1);n.value=t;for(let n in e){let o=document.querySelector(`.lng-${n}`);o&&(o.innerHTML=e[n][t])}}()}));
+//# sourceMappingURL=index.c234c132.js.map
