@@ -1,0 +1,2 @@
+!function(){var e={heading:{en:"the title of my resume",uk:"заголовок мого резюме"},text:{en:"resume of full stack developer Igor Chubov",uk:"резюме фул стек девелопера чубова ігоря"}},n=document.querySelector("select");location.href="".concat(location.pathname,"#en"),n.addEventListener("change",(function(){var o=n.value;location.href="".concat(location.pathname,"#").concat(o),function(){var o=window.location.hash.slice(1);for(var t in n.value=o,e){var a=document.querySelector(".lng-".concat(t));a&&(a.innerHTML=e[t][o])}}()}))}();
+//# sourceMappingURL=index.2fd8019a.js.map
